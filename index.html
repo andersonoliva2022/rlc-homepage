@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Red Latina - Home</title>
+</head>
+
+<body>
+    <!--INICIO do stream de son no topo do site-->
+    <div id="box-son">
+
+        <div id="btn-ouca-aqui">
+            <p id="ouca-aqui">OUÇA AQUI</p>
+
+            <a onclick="playRadio( )">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_101_2)">
+                        <path
+                            d="M12.5 2.08334C6.75001 2.08334 2.08334 6.75001 2.08334 12.5C2.08334 18.25 6.75001 22.9167 12.5 22.9167C18.25 22.9167 22.9167 18.25 22.9167 12.5C22.9167 6.75001 18.25 2.08334 12.5 2.08334ZM10.4167 17.1875V7.81251L16.6667 12.5L10.4167 17.1875Z"
+                            fill="#0C225E" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_101_2">
+                            <rect width="25" height="25" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </a>
+
+        </div>
+
+        <p id="red-latina">VOCÊ ESTÁ NA RED LATINA</p>
+    </div>
+
+    <div class="stream">
+        <iframe src="https://radio.jmvstream.com/bar/Ymxt" width="100%" height="100"
+            frameBorder="0"></iframe>
+    </div>
+    <!--FINAL do stream de son no topo do site-->
+
+    <!--INICIO - clima e cotação no topo do site-->
+    <div id="climatte-dollar">
+
+        <div id="climatte">
+            <div max-height="100px" id="ww_5bd16df9e5789" v='1.20' loc='auto' a='{"t":"horizontal","lang":"pt","ids":[],"cl_bkg":"#FFFFFF00","cl_font":"#FFFFFF","cl_cloud":"#d4d4d4","cl_persp":"#2196F3","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_sot":"celsius","sl_ics":"one_a","font":"Arial","el_whr":3}'><a href="https://weatherwidget.org/pt/" id="ww_5bd16df9e5789_u" target="_blank">Widget do tempo para o site por Weatherwidget.org</a></div><script async src="https://srv1.weatherwidget.org/js/?id=ww_5bd16df9e5789"></script>    
+        </div>
+
+        <div class="dollar">
+
+            <a href="https://mercadocotacao.com/dolar-hoje/" id="USD" title="Dólar" name="mercado_cotacao">Dólar
+            </a>
+            <script async src="https://mercadocotacao.com/money/mercadocotacao.js"></script>
+    
+            <a href="https://mercadocotacao.com/dolar-turismo-compra/" id="USDTC" title="Dólar Turismo Compra"
+                name="mercado_cotacao">Dólar Turismo Compra
+            </a>
+            <script async src="https://mercadocotacao.com/money/mercadocotacao.js"></script>
+    
+            <a href="https://mercadocotacao.com/dolar-turismo-venda-hoje/" id="USDTV" title="Dólar Turismo Venda"
+                name="mercado_cotacao">Dólar Turismo Venda
+            </a>
+            <script async src="https://mercadocotacao.com/money/mercadocotacao.js"></script>
+    
+        </div>
+
+    </div>
+
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
