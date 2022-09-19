@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +10,21 @@
 </head>
 
 <body>
-    <!--INICIO do stream de son no topo do site-->
+    <div class="stream"> <!--IFRAME DE SON-->
+
+        <iframe src="https://radio.jmvstream.com/bar/Ymxt" width="100%" height="100" frameBorder="0"></iframe>
+
+    </div>
+
     <div id="box-son">
 
+        <div class="climatte"> <!--WITGET CLIMA-->
+
+            <div id="ww_5bd16df9e5789" v='1.20' loc='auto' a='{"t":"horizontal","lang":"pt","ids":[],"cl_bkg":"#FFFFFF00","cl_font":"#FFFFFF","cl_cloud":"#d4d4d4","cl_persp":"#2196F3","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_sot":"celsius","sl_ics":"one_a","font":"Arial","el_whr":3}'><a href="https://weatherwidget.org/pt/" id="ww_5bd16df9e5789_u" target="_blank">Widget do tempo para o site por Weatherwidget.org</a></div><script async src="https://srv1.weatherwidget.org/js/?id=ww_5bd16df9e5789"></script>    
+    
+        </div>
+
+        <!--INICIO do BOTÃO DE stream de son no topo do site-->
         <div id="btn-ouca-aqui">
             <p id="ouca-aqui">OUÇA AQUI</p>
 
@@ -30,24 +43,10 @@
                 </svg>
             </a>
 
-        </div>
+        </div>     <!--FINAL do BOTÃO stream de son no topo do site-->
 
-        <p id="red-latina">VOCÊ ESTÁ NA RED LATINA</p>
-    </div>
 
-    <div class="stream">
-        <iframe src="https://radio.jmvstream.com/bar/Ymxt" width="100%" height="100"
-            frameBorder="0"></iframe>
-    </div>
-    <!--FINAL do stream de son no topo do site-->
-
-    <!--INICIO - clima e cotação no topo do site-->
-    <div id="climatte-dollar">
-
-        <div id="climatte">
-            <div max-height="100px" id="ww_5bd16df9e5789" v='1.20' loc='auto' a='{"t":"horizontal","lang":"pt","ids":[],"cl_bkg":"#FFFFFF00","cl_font":"#FFFFFF","cl_cloud":"#d4d4d4","cl_persp":"#2196F3","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_sot":"celsius","sl_ics":"one_a","font":"Arial","el_whr":3}'><a href="https://weatherwidget.org/pt/" id="ww_5bd16df9e5789_u" target="_blank">Widget do tempo para o site por Weatherwidget.org</a></div><script async src="https://srv1.weatherwidget.org/js/?id=ww_5bd16df9e5789"></script>    
-        </div>
-
+        <!--DOLLAR-->
         <div class="dollar">
 
             <a href="https://mercadocotacao.com/dolar-hoje/" id="USD" title="Dólar" name="mercado_cotacao">Dólar
@@ -56,22 +55,52 @@
     
             <a href="https://mercadocotacao.com/dolar-turismo-compra/" id="USDTC" title="Dólar Turismo Compra"
                 name="mercado_cotacao">Dólar Turismo Compra
+    
             </a>
             <script async src="https://mercadocotacao.com/money/mercadocotacao.js"></script>
     
+    
+    
             <a href="https://mercadocotacao.com/dolar-turismo-venda-hoje/" id="USDTV" title="Dólar Turismo Venda"
                 name="mercado_cotacao">Dólar Turismo Venda
+    
             </a>
             <script async src="https://mercadocotacao.com/money/mercadocotacao.js"></script>
     
         </div>
 
+        
+    </div>
+    <!--FINAL do stream de son no topo do site-->
+
+
+    <!-- INICIO DO STREAM DE VIDEO-->
+    <div class="container">
+
+        <div class="title-live-studio">
+            <h4>ESTÚDIO AO VIVO</h4>
+        </div>
+
+        <div class="live-studio">
+            <iframe allow="autoplay; fullscreen;" allowfullscreen class="jmvplayer" frameborder="0"
+                src="https://player.jmvstream.com/avj/jeDRWuvokmSyehyPyS3WmDEd8wc4uC" width="640" height="360"></iframe>
+        </div>
+
+    </div>
+
+    <div class="logo">
+        <img src="./img/Logo Branco.png" width="300px" alt="logo-RedLatina">
     </div>
 
 
 
-    <script src="index.js"></script>
+
+
+
+
 
 </body>
+<script src="index.js"></script>
+
 
 </html>
