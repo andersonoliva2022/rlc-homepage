@@ -28,7 +28,7 @@
 #box-son {
     display: flex;
     background-color: #0C225E;
-    height: 120px;
+    height: 150px;
     justify-content: center;
     align-items: center;
 }
@@ -105,7 +105,7 @@ a {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 20px 50px;
+    padding: 50px 100px;
 }
 
 @media (max-width: 1110px) {
@@ -201,6 +201,19 @@ a {
         padding: 5px;
         margin-top: 35px;
     }
+}
+
+.footer{
+    background-color: #E2E2E2;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rLogo{
+    width: 138px;
 }
 
 
